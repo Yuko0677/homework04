@@ -95,7 +95,6 @@ echo "\n";
 //3日後のタイムスタンプを取得
 $nweek = time() + (3*24*50*60);
 echo '3日後のUnixタイムスタンプ：'.$nweek;
-echo "\n";
 
 //mktime 指定した日時のタイムスタンプを取得
 $timestamp = mktime(0,0,0,8,1,2017);
@@ -111,4 +110,6 @@ $nweek = time() + (7*24*60*60);
 //3日後の日時を取得
 echo date('Y/m/d', $nweek);
 echo "\n";
+
+
 ?> 
