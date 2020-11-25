@@ -111,5 +111,7 @@ $nweek = time() + (7*24*60*60);
 echo date('Y/m/d', $nweek);
 echo "\n";
 
+echo date(DATE_RFC2822);
+echo "\n";
 
 ?> 
