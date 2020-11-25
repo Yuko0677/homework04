@@ -114,4 +114,6 @@ echo "\n";
 echo date(DATE_RFC2822);
 echo "\n";
 
+echo date("l");
+
 ?> 
